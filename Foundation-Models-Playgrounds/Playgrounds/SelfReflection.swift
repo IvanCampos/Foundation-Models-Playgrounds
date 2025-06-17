@@ -21,7 +21,7 @@ struct Critique {
     let criticInstructions = "Evaluate clarity and correct any issues"
     let critic = LanguageModelSession(instructions: criticInstructions)
     let review = try await critic.respond(
-        to: Prompt(draft),
+        to: draft.content,
         generating: Critique.self
     )
 }

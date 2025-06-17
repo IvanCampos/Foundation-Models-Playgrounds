@@ -15,13 +15,14 @@ struct TaskList {
 
 #Playground {
     let manager = LanguageModelSession(instructions: "Decompose the goal into simple tasks")
-    let list = try await manager.respond(
+    let response = try await manager.respond(
         to: Prompt("Write a short tutorial about composting"),
         generating: TaskList.self
     )
-
+    let list = response.content
     let worker = LanguageModelSession()
     for task in list.tasks {
         try await worker.respond(to: task)
     }
 }
+

@@ -15,11 +15,11 @@ struct SubTasks {
 
 #Playground {
     let planner = LanguageModelSession()
-    let plan = try await planner.respond(
+    let response = try await planner.respond(
         to: Prompt("Plan a three-course dinner"),
         generating: SubTasks.self
     )
-
+    let plan: SubTasks = response.content
     let executor = LanguageModelSession()
     for task in plan.tasks {
         try await executor.respond(to: task)

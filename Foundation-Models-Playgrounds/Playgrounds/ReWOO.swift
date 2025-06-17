@@ -29,11 +29,11 @@ struct InfoTool: Tool {
 
 #Playground {
     let planner = LanguageModelSession(instructions: "Plan tool use then confirm")
-    let plan = try await planner.respond(
+    let response = try await planner.respond(
         to: Prompt("Get facts about tomatoes"),
         generating: ToolPlan.self
     )
-
+    let plan = response.content
     let executor = LanguageModelSession(tools: [InfoTool()])
     for call in plan.calls {
         try await executor.respond(to: call)

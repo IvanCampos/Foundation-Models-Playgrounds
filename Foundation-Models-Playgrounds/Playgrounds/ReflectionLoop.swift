@@ -20,7 +20,7 @@ struct Review {
 
     let critic = LanguageModelSession(instructions: "Suggest improvements and critique")
     let result = try await critic.respond(
-        to: Prompt(draft),
+        to: draft.content,
         generating: Review.self
     )
 }

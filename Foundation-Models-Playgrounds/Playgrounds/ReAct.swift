@@ -30,5 +30,6 @@ struct FactTool: Tool {
     )
     let question = "What is the tallest mountain?"
     let step1 = try await session.respond(to: question)
-    let step2 = try await session.respond(to: session.transcript)
+    let transcript = step1.transcriptEntries.map { "\($0)" }.joined(separator: "\n")
+    let step2 = try await session.respond(to: transcript)
 }
