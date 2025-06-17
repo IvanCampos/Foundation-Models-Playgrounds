@@ -158,7 +158,7 @@ This repository contains a collection of Swift playgrounds demonstrating how to 
 ### Agent Properties & Patterns
 132. [`AutonomyGoal.swift`](Foundation-Models-Playgrounds/Playgrounds/AutonomyGoal.swift) – Demonstrates a self-directed loop toward a goal.
 133. [`ReasoningPlan.swift`](Foundation-Models-Playgrounds/Playgrounds/ReasoningPlan.swift) – Breaks a task into ordered steps.
-134. [`ToolActuation.swift`](Foundation-Models-Playgrounds/Playgrounds/ToolActuation.swift) – Shows tool invocation from a session.
+134. [`ContentTagging.swift`](Foundation-Models-Playgrounds/Playgrounds/ContentTagging.swift) – Generates descriptive tags for a text sample.
 135. [`MemoryLoop.swift`](Foundation-Models-Playgrounds/Playgrounds/MemoryLoop.swift) – Summarizes conversation history.
 136. [`PerceptionObservation.swift`](Foundation-Models-Playgrounds/Playgrounds/PerceptionObservation.swift) – Extracts changes from an event log.
 137. [`SelfReflection.swift`](Foundation-Models-Playgrounds/Playgrounds/SelfReflection.swift) – Uses a critic to refine an answer.
