@@ -154,3 +154,19 @@ This repository contains a collection of Swift playgrounds demonstrating how to 
 129. [`RecipeInfoTools.swift`](Foundation-Models-Playgrounds/Playgrounds/RecipeInfoTools.swift) – Multi-tool sample for ingredients, steps, and cook time.
 130. [`CarInfoTools.swift`](Foundation-Models-Playgrounds/Playgrounds/CarInfoTools.swift) – Multi-tool sample for price, fuel economy, and dealers.
 131. [`ProgrammingLanguageTools.swift`](Foundation-Models-Playgrounds/Playgrounds/ProgrammingLanguageTools.swift) – Multi-tool sample for creation year, creator, and paradigm.
+
+### Agent Properties & Patterns
+132. [`AutonomyGoal.swift`](Foundation-Models-Playgrounds/Playgrounds/AutonomyGoal.swift) – Demonstrates a self-directed loop toward a goal.
+133. [`ReasoningPlan.swift`](Foundation-Models-Playgrounds/Playgrounds/ReasoningPlan.swift) – Breaks a task into ordered steps.
+134. [`ToolActuation.swift`](Foundation-Models-Playgrounds/Playgrounds/ToolActuation.swift) – Shows tool invocation from a session.
+135. [`MemoryLoop.swift`](Foundation-Models-Playgrounds/Playgrounds/MemoryLoop.swift) – Summarizes conversation history.
+136. [`PerceptionObservation.swift`](Foundation-Models-Playgrounds/Playgrounds/PerceptionObservation.swift) – Extracts changes from an event log.
+137. [`SelfReflection.swift`](Foundation-Models-Playgrounds/Playgrounds/SelfReflection.swift) – Uses a critic to refine an answer.
+138. [`SafetyCompliance.swift`](Foundation-Models-Playgrounds/Playgrounds/SafetyCompliance.swift) – Applies a safety check tool.
+139. [`ReAct.swift`](Foundation-Models-Playgrounds/Playgrounds/ReAct.swift) – Implements a reason‑act‑observe loop.
+140. [`PlanExecute.swift`](Foundation-Models-Playgrounds/Playgrounds/PlanExecute.swift) – Plans once then executes sub‑tasks.
+141. [`ReflectionLoop.swift`](Foundation-Models-Playgrounds/Playgrounds/ReflectionLoop.swift) – Refines work via a critic loop.
+142. [`HierarchicalManager.swift`](Foundation-Models-Playgrounds/Playgrounds/HierarchicalManager.swift) – Shows manager and worker roles.
+143. [`ReWOO.swift`](Foundation-Models-Playgrounds/Playgrounds/ReWOO.swift) – Plans tool usage up front.
+144. [`MultiAgentSimulation.swift`](Foundation-Models-Playgrounds/Playgrounds/MultiAgentSimulation.swift) – Simulates multiple agent roles.
+145. [`RetrievalAugmented.swift`](Foundation-Models-Playgrounds/Playgrounds/RetrievalAugmented.swift) – Uses retrieval before answering.
