@@ -13,6 +13,6 @@ import Playgrounds
     let bob = LanguageModelSession(instructions: "You are Bob the chef")
 
     let aliceLine = try await alice.respond(to: "Hello Bob, any recipes for basil?")
-    let bobLine = try await bob.respond(to: Prompt(aliceLine))
-    let aliceReply = try await alice.respond(to: Prompt(bobLine))
+    let bobLine = try await bob.respond(to: aliceLine.content)
+    let aliceReply = try await alice.respond(to: bobLine.content)
 }

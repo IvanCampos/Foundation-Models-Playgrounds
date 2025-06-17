@@ -21,9 +21,10 @@ import Playgrounds
         Provide the next improvement and say [DONE] when complete.
         """)
         let step = try await session.respond(to: stepPrompt)
-        draft.append(step + "\n")
-        if step.contains("[DONE]") {
+        draft.append(step.content + "\n")
+        if step.content.contains("[DONE]") {
             finished = true
         }
     }
 }
+
