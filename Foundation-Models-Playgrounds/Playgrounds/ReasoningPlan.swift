@@ -8,9 +8,16 @@
 import FoundationModels
 import Playgrounds
 
+@Generable
+struct Steps {
+    var stepNumber: Int
+    var description: String
+}
+
+
 @Generable(description: "Ordered action steps for a task.")
-struct TaskPlan: Codable {
-    var steps: [String]
+struct TaskPlan {
+    var steps: [Steps]
 }
 
 #Playground {
