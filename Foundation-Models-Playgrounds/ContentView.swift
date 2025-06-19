@@ -12,7 +12,7 @@ struct ContentView: View {
         VStack {
             Text("Foundation Models Playgrounds")
                 .padding()
-                .font(.extraLargeTitle)
+                .font(.largeTitle)
             Text("View Playgrounds Folder for Code Examples")
                 .font(.largeTitle)
         }
