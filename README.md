@@ -2,6 +2,21 @@
 
 This repository contains a collection of Swift playgrounds demonstrating how to interact with Apple's Foundation Models. Each playground showcases a small example or tool that highlights a specific generative capability.
 
+<table>
+  <tr>
+    <td>✅ Free on‑device inference</td>
+    <td>✅ Privacy with no API keys to manage</td>
+    <td>✅ Offline access (zero remote latency)</td>
+    <td>✅ Maintain small app size</td>
+  </tr>
+  <tr>
+    <td>✅ Simple integration</td>
+    <td>✅ Structured output</td>
+    <td>✅ Tool calling for agentic use cases</td>
+    <td>✅ Will only get better over time</td>
+  </tr>
+</table>
+
 ## Playground Catalog
 
 ### Chat & Conversation
@@ -170,3 +185,23 @@ This repository contains a collection of Swift playgrounds demonstrating how to 
 143. [`ReWOO.swift`](Foundation-Models-Playgrounds/Playgrounds/ReWOO.swift) – Plans tool usage up front.
 144. [`MultiAgentSimulation.swift`](Foundation-Models-Playgrounds/Playgrounds/MultiAgentSimulation.swift) – Simulates multiple agent roles.
 145. [`RetrievalAugmented.swift`](Foundation-Models-Playgrounds/Playgrounds/RetrievalAugmented.swift) – Uses retrieval before answering.
+
+<br/>  
+<br/>
+
+##  Developer Docs
+[Foundation Models](https://developer.apple.com/documentation/foundationmodels)  
+[@Generable & @Guide](https://developer.apple.com/documentation/foundationmodels/generating-swift-data-structures-with-guided-generation)  
+[Tool calling](https://developer.apple.com/documentation/foundationmodels/expanding-generation-with-tool-calling)  
+[Acceptable use requirements](https://developer.apple.com/apple-intelligence/acceptable-use-requirements-for-the-foundation-models-framework)  
+##  Machine Learning Research
+[Training details and evals](https://machinelearning.apple.com/research/apple-foundation-models-2025-updates)
+
+## WWDC 2025 Videos
+###  Developer
+[Meet the Foundation Models framework](https://developer.apple.com/videos/play/wwdc2025/286)  
+[Deep dive into the Foundation Models framework](https://developer.apple.com/videos/play/wwdc2025/301)   
+### YouTube
+[Meet the Foundation Models framework](https://www.youtube.com/watch?v=mJMvFyBvZEk)  
+[Deep dive into the Foundation Models framework](https://www.youtube.com/watch?v=6Wgg7DIY29E)
+
