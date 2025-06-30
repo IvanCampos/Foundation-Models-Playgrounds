@@ -17,6 +17,8 @@ This repository contains a collection of Swift playgrounds demonstrating how to 
   </tr>
 </table>
 
+<br/>
+
 ## Playground Catalog
 
 ### Chat & Conversation
