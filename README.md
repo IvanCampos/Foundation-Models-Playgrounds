@@ -199,6 +199,7 @@ This repository contains a collection of Swift playgrounds demonstrating how to 
 ##  Machine Learning Research
 [Training details and evals](https://machinelearning.apple.com/research/apple-foundation-models-2025-updates)  
 [Apple Intelligence Foundation Language Models Tech Report 2025](https://machinelearning.apple.com/papers/apple_intelligence_foundation_language_models_tech_report_2025.pdf)  
+[Get started with Foundation Models adapter training](https://developer.apple.com/apple-intelligence/foundation-models-adapter/)  
 
 ## WWDC 2025 Videos
 ###  Developer
