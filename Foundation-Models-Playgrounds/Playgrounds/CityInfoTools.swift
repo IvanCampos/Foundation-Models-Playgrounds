@@ -18,12 +18,12 @@ struct CityPopulationTool: Tool {
         var city: String
     }
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
+    func call(arguments: Arguments) async throws -> GeneratedContent {
         let info = GeneratedContent(properties: [
             "city": arguments.city,
             "population": "1,000,000"
         ])
-        return ToolOutput(info)
+        return info
     }
 }
 
@@ -37,12 +37,12 @@ struct CityAreaTool: Tool {
         var city: String
     }
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
+    func call(arguments: Arguments) async throws -> GeneratedContent {
         let info = GeneratedContent(properties: [
             "city": arguments.city,
             "area": "180 sq mi"
         ])
-        return ToolOutput(info)
+        return info
     }
 }
 
@@ -56,12 +56,12 @@ struct CityTimezoneTool: Tool {
         var city: String
     }
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
+    func call(arguments: Arguments) async throws -> GeneratedContent {
         let info = GeneratedContent(properties: [
             "city": arguments.city,
             "timezone": "PST"
         ])
-        return ToolOutput(info)
+        return info
     }
 }
 

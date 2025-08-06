@@ -18,13 +18,13 @@ struct StockPriceTool: Tool {
         var symbol: String
     }
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
+    func call(arguments: Arguments) async throws -> GeneratedContent {
         let price = 100.0
         let info = GeneratedContent(properties: [
             "symbol": arguments.symbol,
             "price": price
         ])
-        return ToolOutput(info)
+        return info
     }
 }
 

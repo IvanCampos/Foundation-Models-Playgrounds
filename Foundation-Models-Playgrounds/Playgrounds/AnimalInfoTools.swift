@@ -18,12 +18,12 @@ struct AnimalFactTool: Tool {
         var animal: String
     }
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
+    func call(arguments: Arguments) async throws -> GeneratedContent {
         let info = GeneratedContent(properties: [
             "animal": arguments.animal,
             "fact": "This animal is fascinating"
         ])
-        return ToolOutput(info)
+        return info
     }
 }
 
@@ -37,12 +37,12 @@ struct AnimalHabitatTool: Tool {
         var animal: String
     }
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
+    func call(arguments: Arguments) async throws -> GeneratedContent {
         let info = GeneratedContent(properties: [
             "animal": arguments.animal,
             "habitat": "Typically found in forests"
         ])
-        return ToolOutput(info)
+        return info
     }
 }
 
@@ -56,12 +56,12 @@ struct AnimalDietTool: Tool {
         var animal: String
     }
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
+    func call(arguments: Arguments) async throws -> GeneratedContent {
         let info = GeneratedContent(properties: [
             "animal": arguments.animal,
             "diet": "Mostly plants"
         ])
-        return ToolOutput(info)
+        return info
     }
 }
 

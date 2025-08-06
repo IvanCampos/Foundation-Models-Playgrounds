@@ -18,12 +18,12 @@ struct PlanetDistanceTool: Tool {
         var planet: String
     }
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
+    func call(arguments: Arguments) async throws -> GeneratedContent {
         let info = GeneratedContent(properties: [
             "planet": arguments.planet,
             "distance": "100 million km"
         ])
-        return ToolOutput(info)
+        return info
     }
 }
 
@@ -37,12 +37,12 @@ struct PlanetGravityTool: Tool {
         var planet: String
     }
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
+    func call(arguments: Arguments) async throws -> GeneratedContent {
         let info = GeneratedContent(properties: [
             "planet": arguments.planet,
             "gravity": "9.8 m/s^2"
         ])
-        return ToolOutput(info)
+        return info
     }
 }
 
@@ -56,12 +56,12 @@ struct PlanetAtmosphereTool: Tool {
         var planet: String
     }
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
+    func call(arguments: Arguments) async throws -> GeneratedContent {
         let info = GeneratedContent(properties: [
             "planet": arguments.planet,
             "atmosphere": "Mostly nitrogen"
         ])
-        return ToolOutput(info)
+        return info
     }
 }
 

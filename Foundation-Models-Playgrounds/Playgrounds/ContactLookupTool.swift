@@ -18,12 +18,12 @@ struct ContactSearchTool: Tool {
         var name: String
     }
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
+    func call(arguments: Arguments) async throws -> GeneratedContent {
         let info = GeneratedContent(properties: [
             "name": arguments.name,
             "phone": "555-1234"
         ])
-        return ToolOutput(info)
+        return info
     }
 }
 

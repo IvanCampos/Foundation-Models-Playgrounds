@@ -20,8 +20,8 @@ struct CalendarEventTool: Tool {
         var date: String
     }
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
-        return ToolOutput("Event '\(arguments.title)' added for \(arguments.date)")
+    func call(arguments: Arguments) async throws -> String {
+        return "Event '\(arguments.title)' added for \(arguments.date)"
     }
 }
 

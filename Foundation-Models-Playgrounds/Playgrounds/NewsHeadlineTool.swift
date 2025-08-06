@@ -18,9 +18,9 @@ struct NewsHeadlineTool: Tool {
         var topic: String
     }
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
+    func call(arguments: Arguments) async throws -> GeneratedContent {
         let headlines = ["Example headline about \(arguments.topic)"]
-        return ToolOutput(GeneratedContent(properties: ["headlines": headlines]))
+        return GeneratedContent(properties: ["headlines": headlines])
     }
 }
 

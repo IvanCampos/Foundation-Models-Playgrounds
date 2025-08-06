@@ -17,10 +17,10 @@ struct PolicyTool: Tool {
         var text: String
     }
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
+    func call(arguments: Arguments) async throws -> String {
         // Placeholder logic for a policy check
         let result = arguments.text.contains("password") ? "REDACTED" : arguments.text
-        return ToolOutput(result)
+        return result
     }
 }
 

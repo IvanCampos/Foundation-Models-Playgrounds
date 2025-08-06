@@ -18,12 +18,12 @@ struct CarPriceTool: Tool {
         var model: String
     }
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
+    func call(arguments: Arguments) async throws -> GeneratedContent {
         let info = GeneratedContent(properties: [
             "model": arguments.model,
             "price": "$30,000"
         ])
-        return ToolOutput(info)
+        return info
     }
 }
 
@@ -37,12 +37,12 @@ struct CarFuelEconomyTool: Tool {
         var model: String
     }
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
+    func call(arguments: Arguments) async throws -> GeneratedContent {
         let info = GeneratedContent(properties: [
             "model": arguments.model,
             "mpg": 35
         ])
-        return ToolOutput(info)
+        return info
     }
 }
 
@@ -56,12 +56,12 @@ struct CarDealerTool: Tool {
         var model: String
     }
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
+    func call(arguments: Arguments) async throws -> GeneratedContent {
         let info = GeneratedContent(properties: [
             "model": arguments.model,
             "dealer": "Local Motors"
         ])
-        return ToolOutput(info)
+        return info
     }
 }
 

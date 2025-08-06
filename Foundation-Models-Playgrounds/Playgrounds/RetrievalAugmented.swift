@@ -17,9 +17,9 @@ struct SearchTool: Tool {
         var query: String
     }
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
+    func call(arguments: Arguments) async throws -> String {
         let snippet = "Paris was founded in the 3rd century BC."
-        return ToolOutput(snippet)
+        return snippet
     }
 }
 

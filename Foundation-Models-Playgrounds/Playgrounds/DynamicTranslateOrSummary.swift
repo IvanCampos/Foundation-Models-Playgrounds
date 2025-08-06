@@ -18,11 +18,11 @@ struct TranslationTool: Tool {
         var text: String
     }
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
+    func call(arguments: Arguments) async throws -> GeneratedContent {
         let result = GeneratedContent(properties: [
             "translation": "French translation of '\(arguments.text)'"
         ])
-        return ToolOutput(result)
+        return result
     }
 }
 
@@ -36,11 +36,11 @@ struct SummaryTool: Tool {
         var text: String
     }
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
+    func call(arguments: Arguments) async throws -> GeneratedContent {
         let result = GeneratedContent(properties: [
             "summary": "Summary of '\(arguments.text)'"
         ])
-        return ToolOutput(result)
+        return result
     }
 }
 

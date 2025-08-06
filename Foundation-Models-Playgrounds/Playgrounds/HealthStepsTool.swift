@@ -15,10 +15,10 @@ struct StepCountTool: Tool {
     @Generable
     struct Arguments {}
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
+    func call(arguments: Arguments) async throws -> GeneratedContent {
         let steps = 4500
         let output = GeneratedContent(properties: ["steps": steps])
-        return ToolOutput(output)
+        return output
     }
 }
 

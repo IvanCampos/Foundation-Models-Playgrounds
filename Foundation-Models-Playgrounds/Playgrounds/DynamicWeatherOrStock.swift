@@ -18,12 +18,12 @@ struct WeatherTool: Tool {
         var city: String
     }
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
+    func call(arguments: Arguments) async throws -> GeneratedContent {
         let info = GeneratedContent(properties: [
             "city": arguments.city,
             "forecast": "Sunny and 72F"
         ])
-        return ToolOutput(info)
+        return info
     }
 }
 

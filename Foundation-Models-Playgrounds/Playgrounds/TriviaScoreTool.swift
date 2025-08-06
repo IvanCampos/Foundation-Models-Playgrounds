@@ -18,8 +18,8 @@ struct TriviaScoreTool: Tool {
         var score: Int
     }
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
-        return ToolOutput("Score updated to \(arguments.score)")
+    func call(arguments: Arguments) async throws -> String {
+        return "Score updated to \(arguments.score)"
     }
 }
 

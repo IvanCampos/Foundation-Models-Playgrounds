@@ -18,12 +18,12 @@ struct PlantWateringTool: Tool {
         var plant: String
     }
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
+    func call(arguments: Arguments) async throws -> GeneratedContent {
         let info = GeneratedContent(properties: [
             "plant": arguments.plant,
             "watering": "Weekly"
         ])
-        return ToolOutput(info)
+        return info
     }
 }
 
@@ -37,12 +37,12 @@ struct PlantSunlightTool: Tool {
         var plant: String
     }
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
+    func call(arguments: Arguments) async throws -> GeneratedContent {
         let info = GeneratedContent(properties: [
             "plant": arguments.plant,
             "sunlight": "Partial shade"
         ])
-        return ToolOutput(info)
+        return info
     }
 }
 
@@ -56,12 +56,12 @@ struct PlantSoilTool: Tool {
         var plant: String
     }
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
+    func call(arguments: Arguments) async throws -> GeneratedContent {
         let info = GeneratedContent(properties: [
             "plant": arguments.plant,
             "soil": "Well-draining"
         ])
-        return ToolOutput(info)
+        return info
     }
 }
 

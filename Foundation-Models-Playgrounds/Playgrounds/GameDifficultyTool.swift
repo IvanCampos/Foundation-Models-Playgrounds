@@ -18,9 +18,9 @@ struct GameDifficultyTool: Tool {
         var level: Int
     }
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
+    func call(arguments: Arguments) async throws -> String {
         print("Game difficulty set to \(arguments.level)")
-        return ToolOutput("Difficulty set to \(arguments.level)")
+        return "Difficulty set to \(arguments.level)"
     }
 }
 

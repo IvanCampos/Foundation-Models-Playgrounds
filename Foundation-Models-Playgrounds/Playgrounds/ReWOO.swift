@@ -22,8 +22,8 @@ struct InfoTool: Tool {
         var query: String
     }
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
-        ToolOutput("Information for \(arguments.query)")
+    func call(arguments: Arguments) async throws -> String {
+        "Information for \(arguments.query)"
     }
 }
 

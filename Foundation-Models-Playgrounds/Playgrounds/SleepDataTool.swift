@@ -15,10 +15,10 @@ struct SleepDataTool: Tool {
     @Generable
     struct Arguments {}
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
+    func call(arguments: Arguments) async throws -> GeneratedContent {
         let hours = 7
         let output = GeneratedContent(properties: ["hours": hours])
-        return ToolOutput(output)
+        return output
     }
 }
 

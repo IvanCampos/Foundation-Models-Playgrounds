@@ -18,12 +18,12 @@ struct RecipeIngredientTool: Tool {
         var recipe: String
     }
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
+    func call(arguments: Arguments) async throws -> GeneratedContent {
         let info = GeneratedContent(properties: [
             "recipe": arguments.recipe,
             "ingredients": "Flour, sugar, butter"
         ])
-        return ToolOutput(info)
+        return info
     }
 }
 
@@ -37,12 +37,12 @@ struct RecipeStepsTool: Tool {
         var recipe: String
     }
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
+    func call(arguments: Arguments) async throws -> GeneratedContent {
         let info = GeneratedContent(properties: [
             "recipe": arguments.recipe,
             "steps": "Mix, bake, serve"
         ])
-        return ToolOutput(info)
+        return info
     }
 }
 
@@ -56,12 +56,12 @@ struct RecipeCookTimeTool: Tool {
         var recipe: String
     }
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
+    func call(arguments: Arguments) async throws -> GeneratedContent {
         let info = GeneratedContent(properties: [
             "recipe": arguments.recipe,
             "cookTime": "30 minutes"
         ])
-        return ToolOutput(info)
+        return info
     }
 }
 

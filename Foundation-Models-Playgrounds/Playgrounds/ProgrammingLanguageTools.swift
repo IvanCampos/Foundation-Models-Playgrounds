@@ -18,12 +18,12 @@ struct ProgrammingLanguageYearTool: Tool {
         var language: String
     }
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
+    func call(arguments: Arguments) async throws -> GeneratedContent {
         let info = GeneratedContent(properties: [
             "language": arguments.language,
             "year": 1995
         ])
-        return ToolOutput(info)
+        return info
     }
 }
 
@@ -37,12 +37,12 @@ struct ProgrammingLanguageCreatorTool: Tool {
         var language: String
     }
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
+    func call(arguments: Arguments) async throws -> GeneratedContent {
         let info = GeneratedContent(properties: [
             "language": arguments.language,
             "creator": "Famous Developer"
         ])
-        return ToolOutput(info)
+        return info
     }
 }
 
@@ -56,12 +56,12 @@ struct ProgrammingLanguageParadigmTool: Tool {
         var language: String
     }
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
+    func call(arguments: Arguments) async throws -> GeneratedContent {
         let info = GeneratedContent(properties: [
             "language": arguments.language,
             "paradigm": "Object-Oriented"
         ])
-        return ToolOutput(info)
+        return info
     }
 }
 

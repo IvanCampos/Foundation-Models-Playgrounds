@@ -18,8 +18,8 @@ struct DarkModeTool: Tool {
         var enabled: Bool
     }
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
-        return ToolOutput("Dark mode set to \(arguments.enabled)")
+    func call(arguments: Arguments) async throws -> String {
+        return "Dark mode set to \(arguments.enabled)"
     }
 }
 

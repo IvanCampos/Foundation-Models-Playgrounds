@@ -18,12 +18,12 @@ struct MovieRatingTool: Tool {
         var title: String
     }
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
+    func call(arguments: Arguments) async throws -> GeneratedContent {
         let info = GeneratedContent(properties: [
             "title": arguments.title,
             "rating": "4 stars"
         ])
-        return ToolOutput(info)
+        return info
     }
 }
 
@@ -37,12 +37,12 @@ struct MovieDirectorTool: Tool {
         var title: String
     }
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
+    func call(arguments: Arguments) async throws -> GeneratedContent {
         let info = GeneratedContent(properties: [
             "title": arguments.title,
             "director": "A. Filmmaker"
         ])
-        return ToolOutput(info)
+        return info
     }
 }
 
@@ -56,12 +56,12 @@ struct MovieCastTool: Tool {
         var title: String
     }
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
+    func call(arguments: Arguments) async throws -> GeneratedContent {
         let info = GeneratedContent(properties: [
             "title": arguments.title,
             "cast": "Famous Actor, Another Star"
         ])
-        return ToolOutput(info)
+        return info
     }
 }
 

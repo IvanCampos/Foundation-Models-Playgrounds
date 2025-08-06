@@ -18,11 +18,11 @@ struct RecipeTool: Tool {
         var dish: String
     }
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
+    func call(arguments: Arguments) async throws -> GeneratedContent {
         let result = GeneratedContent(properties: [
             "recipe": "Quick recipe for \(arguments.dish)"
         ])
-        return ToolOutput(result)
+        return result
     }
 }
 
@@ -36,11 +36,11 @@ struct WorkoutTool: Tool {
         var goal: String
     }
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
+    func call(arguments: Arguments) async throws -> GeneratedContent {
         let result = GeneratedContent(properties: [
             "workout": "Workout routine for \(arguments.goal)"
         ])
-        return ToolOutput(result)
+        return result
     }
 }
 

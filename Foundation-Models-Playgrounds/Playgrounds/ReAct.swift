@@ -17,9 +17,9 @@ struct FactTool: Tool {
         var query: String
     }
 
-    func call(arguments: Arguments) async throws -> ToolOutput {
+    func call(arguments: Arguments) async throws -> String {
         let fact = "Mount Everest is the tallest mountain on Earth."
-        return ToolOutput(fact)
+        return fact
     }
 }
 
