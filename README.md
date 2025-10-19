@@ -209,3 +209,7 @@ This repository contains a collection of Swift playgrounds demonstrating how to 
 [Meet the Foundation Models framework](https://www.youtube.com/watch?v=mJMvFyBvZEk)  
 [Deep dive into the Foundation Models framework](https://www.youtube.com/watch?v=6Wgg7DIY29E)
 
+## Code along with the Foundation Models framework  
+View [YouTube livestream recording](https://www.youtube.com/watch?v=S5F196tqRMI)  
+Download [the project files](https://developer.apple.com/events/resources/code-along-205/downloads/code-along-205.zip)    
+Explore the [code along guide](https://developer.apple.com/events/resources/code-along-205/)  
