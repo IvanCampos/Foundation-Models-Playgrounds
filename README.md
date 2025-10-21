@@ -187,6 +187,16 @@ This repository contains a collection of Swift playgrounds demonstrating how to 
 143. [`ReWOO.swift`](Foundation-Models-Playgrounds/Playgrounds/ReWOO.swift) – Plans tool usage up front.
 144. [`MultiAgentSimulation.swift`](Foundation-Models-Playgrounds/Playgrounds/MultiAgentSimulation.swift) – Simulates multiple agent roles.
 145. [`RetrievalAugmented.swift`](Foundation-Models-Playgrounds/Playgrounds/RetrievalAugmented.swift) – Uses retrieval before answering.
+146. [`ProceduralTextureDemo01.swift`](Foundation-Models-Playgrounds/Playgrounds/ProceduralTextureDemo01.swift) – Derives RealityKit material settings from adjectives.
+147. [`ProceduralTextureDemo02.swift`](Foundation-Models-Playgrounds/Playgrounds/ProceduralTextureDemo02.swift) – Derives RealityKit material settings from adjectives.
+148. [`ProceduralTextureDemo03.swift`](Foundation-Models-Playgrounds/Playgrounds/ProceduralTextureDemo03.swift) – Derives RealityKit material settings from adjectives.
+149. [`ProceduralTextureDemo04.swift`](Foundation-Models-Playgrounds/Playgrounds/ProceduralTextureDemo04.swift) – Derives RealityKit material settings from adjectives.
+150. [`ProceduralTextureDemo05.swift`](Foundation-Models-Playgrounds/Playgrounds/ProceduralTextureDemo05.swift) – Derives RealityKit material settings from adjectives.
+151. [`ProceduralTextureDemo06.swift`](Foundation-Models-Playgrounds/Playgrounds/ProceduralTextureDemo06.swift) – Derives RealityKit material settings from adjectives.
+152. [`ProceduralTextureDemo07.swift`](Foundation-Models-Playgrounds/Playgrounds/ProceduralTextureDemo07.swift) – Derives RealityKit material settings from adjectives.
+153. [`ProceduralTextureDemo08.swift`](Foundation-Models-Playgrounds/Playgrounds/ProceduralTextureDemo08.swift) – Derives RealityKit material settings from adjectives.
+154. [`ProceduralTextureDemo09.swift`](Foundation-Models-Playgrounds/Playgrounds/ProceduralTextureDemo09.swift) – Derives RealityKit material settings from adjectives.
+155. [`ProceduralTextureDemo10.swift`](Foundation-Models-Playgrounds/Playgrounds/ProceduralTextureDemo10.swift) – Derives RealityKit material settings from adjectives.
 
 <br/>  
 <br/>
