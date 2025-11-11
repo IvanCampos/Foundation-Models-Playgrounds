@@ -196,6 +196,7 @@ This repository contains a collection of Swift playgrounds demonstrating how to 
 [@Generable & @Guide](https://developer.apple.com/documentation/foundationmodels/generating-swift-data-structures-with-guided-generation)  
 [Tool calling](https://developer.apple.com/documentation/foundationmodels/expanding-generation-with-tool-calling)  
 [Acceptable use requirements](https://developer.apple.com/apple-intelligence/acceptable-use-requirements-for-the-foundation-models-framework)  
+[TN3193: Managing the on-device foundation model’s context window](https://developer.apple.com/documentation/technotes/tn3193-managing-the-on-device-foundation-model-s-context-window)  
 ##  Machine Learning Research
 [Training details and evals](https://machinelearning.apple.com/research/apple-foundation-models-2025-updates)  
 [Apple Intelligence Foundation Language Models Tech Report 2025](https://machinelearning.apple.com/papers/apple_intelligence_foundation_language_models_tech_report_2025.pdf)  
